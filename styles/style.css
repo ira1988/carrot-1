@@ -78,8 +78,10 @@ background: #FFFFFF;
 padding-left: 10px;
 }
 
-  
-
+.label-contact input {
+  color: #212121;
+    outline: none;
+}
 
 .placeholder-mail {
   width: 100%;
@@ -109,5 +111,12 @@ height: 42px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: #169A3B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
