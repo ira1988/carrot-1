@@ -24,3 +24,40 @@ a {
 button {
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------SECTION-CONTACT---------------------*/
+.contact {
+  display: flex;
+}
+
+.contact-section
+{
+  background-color: #F4F4F4;
+  width: 680px;
+  height: 460px;
+}
+.contact-btn {
+  font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    color: #FFFFFF;
+background-color: #28A745;
+}
