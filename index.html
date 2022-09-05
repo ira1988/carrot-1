@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-  />
-    <link href="./styles/style.css" rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link href="./styles/style.css" rel="stylesheet" />
+  </head>
 
-<body>
-    <header>
+  <body>
+    <header></header>
+    <main>
+      <section class="contact">
+        <div class="contact-image">
+          <img src="./images/man-work.jpg" alt="man-work" />
+        </div>
+        <div class="contact-section">
+          <h2 class="title-section">Request Callback</h2>
 
-    </header>
- <main>
-   
-
-
-  <section class="contact">
-    <div>
-      <img src="./images/man-work.jpg" alt="man-work">
-    </div>
-  <div class="contact-section">
-    <h2>Request Callback</h2>
-   
-   <form class="form-contact">
-    
- <div>
-      <label for="name"></label>
-    <input type="text" name="name" id="name" placeholder="Enter your name">  
-    </div>
-    <div>
-      <label for="mail"></label>
-    <input type="email" name="mail" id="mail" placeholder="Enter email*">  
-    </div>
-   </form>
-
-   <button class="contact-btn">
-    Send
-   </button>
-</div>
-
-</section>
- </main>
- <footer>
-    
- </footer>
-</body>
-
+          <form class="form-contact">
+            <div>
+              <label class="label-text" for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Enter your name" class="placeholder-name" />
+            </div>
+            <div>
+              <label class="label-mail" for="mail"></label>
+              <input type="email" name="mail" id="mail" placeholder="Enter email*" class="placeholder-mail" />
+            </div>
+          <button class="contact-btn">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
