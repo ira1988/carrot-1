@@ -56,21 +56,19 @@ button {
 
 .title-section {
   font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 38px;
     line-height: 1.26;
     color: #333333;
 }
 
-.placeholder-name {
+.input-n {
   width: 100%;
   height: 42px;
   margin: 34px 0 36px 0;
 background: #FFFFFF;
   border: 1px solid #F5F5F5;
   font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
@@ -83,7 +81,7 @@ padding-left: 10px;
     outline: none;
 }
 
-.placeholder-mail {
+.input-m {
   width: 100%;
   height: 42px;
   margin-bottom: 60px;
@@ -91,7 +89,6 @@ background: #FFFFFF;
   border: 1px solid #F5F5F5;
   font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
     color: #808080;
@@ -100,8 +97,6 @@ background: #FFFFFF;
 
 .contact-btn {
   font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.38;
     color: #FFFFFF;
@@ -110,7 +105,6 @@ width: 100%;
 height: 42px;
 border: none;
 border-radius: 5px;
-cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
