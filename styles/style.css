@@ -34,12 +34,12 @@ font-family: 'Open Sans', sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 1360px;
+  background-color: aqua;
 }
 
-/* Team lead must write general styles to body and root for colors */
-body{
-  font-family: 'Open Sans', sans-serif;
-}
+
+
+
 
 
 /* Cases */
@@ -91,6 +91,8 @@ body{
 }
 
 
+
+
 /*---------------SECTION-CONTACT---------------------*/
 .contact {
   display: flex;
@@ -112,10 +114,7 @@ body{
     margin-bottom: 34px;
 }
 
-.input::placeholder {
-  color: #808080;
 
-}
 
 .input{
     width: 100%;
@@ -129,12 +128,22 @@ body{
     color: #212121;
     padding-left: 10px;
     outline: none;
+  
     
 }
 .input-2 {
   margin-bottom: 36px;
 }
 
+
+.input::placeholder {
+  color: #808080;
+  padding: 0px;
+  padding-top: 6px ;
+  padding-bottom: 5px;
+  padding-left: 5px;
+
+}
 .contact-btn {
     font-size: 18px;
     line-height: 1.38;
