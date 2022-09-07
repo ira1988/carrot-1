@@ -20,6 +20,7 @@ img {
 }
 a {
   text-decoration: none;
+  color:inherit;
 }
 button {
   cursor: pointer;
@@ -29,19 +30,65 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1360px;
+}
+
+/* Team lead must write general styles to body and root for colors */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 
 
+/* Cases */
 
+.cases{
+  padding-top: 50px;
+  padding-bottom: 47px;
+  margin-left: auto;
+  margin-right: auto;
 
+  background-color: #FFFFFF;
+}
+.cases .subtitle{
+    margin-bottom: 15px;
 
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
 
+    color: #333333;
 
+}
+.cases .title{
+    margin-bottom: 34px;
 
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    text-align: center;
 
+    color: #333333;
+}
+.cases .text-content{
+    margin-bottom: 39px;
 
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
 
-
-
+    color: #333333;
+}
+.cases-gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 7px;
+    column-gap: 8px;
+  
+}
 
 
 /*---------------SECTION-CONTACT---------------------*/
