@@ -39,7 +39,9 @@ font-weight: 400;
   margin-left: auto;
   margin-right: auto;
   width: 1360px;
-  background-color: aqua;
+  padding-left: 10px;
+  padding-right:10px ;
+outline: 2px solid red;
 }
 
  
@@ -99,9 +101,9 @@ font-weight: 400;
 
 
 /*---------------SECTION-CONTACT---------------------*/
-/* .contact {
+.contact {
   display: flex;
-} */
+}
 .contact-box{
   display: flex;
 }
