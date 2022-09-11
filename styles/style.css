@@ -32,6 +32,21 @@ button {
   padding: 0px;
 }
 
+body{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1360px;
+  padding-left: 10px;
+  padding-right:10px ;
+  outline: 2px solid red;
+}
+
+
 /* ==================== section hero ==================== */
 
 .hero {
@@ -99,35 +114,18 @@ button {
 
 
 
-
-body{
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-}
-
-.container{
+/* Cases */
+ 
+.cases{
   margin-left: auto;
   margin-right: auto;
-  width: 1360px;
-  padding-left: 10px;
-  padding-right:10px ;
-  outline: 2px solid red;
+  background-color: #FFFFFF;
 }
 
+.cases-box{
  
-
-
-
-
-/* Cases */
-
-.cases{
   padding-top: 50px;
   padding-bottom: 47px;
-  margin-left: auto;
-  margin-right: auto;
-
-  background-color: #FFFFFF;
 }
 .cases .subtitle{
     margin-bottom: 15px;
