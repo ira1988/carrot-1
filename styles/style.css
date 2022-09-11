@@ -1,7 +1,10 @@
 :root {
   --color-hero-title: #E9E9E9;
   --color-white: #fff;
-  --
+  --background-color-offer: #28A745;
+  --text-color-offer: #FFFFFF;
+  --btn-color-text: #FFFFFF;
+  --btn-color-border: #FFFFFF;
 }
 
 h1,
