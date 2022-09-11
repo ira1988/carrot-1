@@ -45,9 +45,10 @@ button {
 }
 
 .hero-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   width: 493px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -56,14 +57,20 @@ button {
   line-height: 1.2;
   color: var(--color-hero-title);
   margin-bottom: 25px;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-sub-title {
+  width: 459px;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.68;
   color: var(--color-hero-title);
   margin-bottom: 29px;
+   margin-left: auto;
+  margin-right: auto;
+
 }
 
 .hero-btn {
@@ -80,19 +87,18 @@ button {
   padding: 10px 28px;
 }
 
-.hero-btn-icon{
+ 
+ .hero-btn-icon{
   width: 8px;
   height: 12px;
   fill: var(--color-white);
-  
-}
+   
+} 
 
 /* ==================== section hero ==================== */
 
 
-.input {
-  padding: 0px;
-}
+
 
 body{
 font-family: 'Open Sans', sans-serif;
