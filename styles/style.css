@@ -151,7 +151,7 @@ font-weight: 400;
 .offer-btn {
     min-width: 167px;
     padding: 11px 27px 12px 42px;
-    
+
     display: inline-block;  
 
     font-size: 18px;
@@ -163,7 +163,6 @@ font-weight: 400;
     color: var(--text-color-offer);
     border-radius: 5px;
 }
-
 /* ===============//Offer//=============== */
 
 
