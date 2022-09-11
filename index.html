@@ -17,58 +17,106 @@
     <link href="./styles/style.css" rel="stylesheet" />
   </head>
   <body>
-<main>
-
-    <section class="hero">
-      <div class="hero-box">
-        <h1 class="hero-title">The Sky Is The Limit</h1>
-        <p class="hero-sub-title">We provide world class financial assistance</p>
-        <button type="button" class="hero-btn">Read More</button>
-      </div>
-    </section>
-
-
-
-
-    <section class="cases">
+    <main>
+      <section class="hero">
         <div class="container">
-        <p class="subtitle">This is what we do</p>
-        <h2 class="title">Business Cases</h2>
-        <p class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-        <ul class="cases-gallery">
-            <li><img src="./images/cases_1.jpg" alt="People mitting" width="320" height="214"></li>
-            <li><img src="./images/cases_2.jpg" alt="A person works with graphic tables" width="320" height="214"></li>
-            <li><img src="./images/cases_3.jpg" alt="People shake hands" width="320" height="214"></li>
-            <li><img src="./images/cases_4.jpg" alt="Six people put their hands one on top of the other" width="320" height="214"></li>
-            <li><img src="./images/cases_5.jpg" alt="A person works at a laptop" width="320" height="214"></li>
-            <li><img src="./images/cases_6.jpg" alt="The sky reflects in the windows of skyscrapers" width="320" height="214"></li>
-            <li><img src="./images/cases_7.jpg" alt="A group of people are sitting at a table in an office" width="320" height="214"></li>
-            <li><img src="./images/cases_8.jpg" alt="Three people are working in the office and smiling at each other" width="320" height="214"></li>
-        </ul>
+          <div class="hero-box">
+            <h1 class="hero-title">The Sky Is The Limit</h1>
+            <p class="hero-sub-title">We provide world class financial assistance</p>
+            <button type="button" class="hero-btn">
+              <svg class="hero-btn-icon">
+                <use href="./images/sprite.svg#icon-vector"></use>
+              </svg>
+              <span class="hero-btn-text">Read More</span>
+            </button>
+          </div>
         </div>
-    </section>
-  
- <section class="contact ">
-  <div class="contact-box container" >
-    <div class="contact-image">
-      <img src="./images/man-work.jpg" alt="man-work" width="680" height="460" />
-    </div>
-    <div class="contact-section">
-      <p class="title-section">Request Callback</p>
-      <form class="form-contact">
-       
-          <input type="text" name="name" placeholder="Enter your name" class="input input-2" />
-      
-          <input type="email" name="mail" placeholder="Enter email*" class="input" required />
-    
-        <button type="submit" class="contact-btn">Send</button>
-      </form>
-    </div>
-  </div>
-        
+      </section>
+
+      <section class="cases">
+        <div class="container">
+          <p class="subtitle">This is what we do</p>
+          <h2 class="title">Business Cases</h2>
+          <p class="text-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+          </p>
+          <ul class="cases-gallery">
+            <li>
+              <img src="./images/cases_1.jpg" alt="People mitting" width="320" height="214" />
+            </li>
+            <li>
+              <img
+                src="./images/cases_2.jpg"
+                alt="A person works with graphic tables"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img src="./images/cases_3.jpg" alt="People shake hands" width="320" height="214" />
+            </li>
+            <li>
+              <img
+                src="./images/cases_4.jpg"
+                alt="Six people put their hands one on top of the other"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_5.jpg"
+                alt="A person works at a laptop"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_6.jpg"
+                alt="The sky reflects in the windows of skyscrapers"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_7.jpg"
+                alt="A group of people are sitting at a table in an office"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_8.jpg"
+                alt="Three people are working in the office and smiling at each other"
+                width="320"
+                height="214"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-box container">
+          <div class="contact-image">
+            <img src="./images/man-work.jpg" alt="man-work" width="680" height="460" />
+          </div>
+          <div class="contact-section">
+            <p class="title-section">Request Callback</p>
+            <form class="form-contact">
+              <input type="text" name="name" placeholder="Enter your name" class="input input-2" />
+
+              <input type="email" name="mail" placeholder="Enter email*" class="input" required />
+
+              <button type="submit" class="contact-btn">Send</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
-
   </body>
 </html>
