@@ -1,10 +1,12 @@
 :root {
   --color-hero-title: #E9E9E9;
   --color-white: #fff;
-  --background-color-offer: #28A745;
+  --text-color-offer:#FFFFFF;
+  --btn-color-text: #FFFFFF;
+  --btn-color-border:#FFFFFF;
   --text-color-offer: #FFFFFF;
   --btn-color-text: #FFFFFF;
-  --btn-color-border: #FFFFFF;
+
 }
 
 h1,
@@ -173,6 +175,56 @@ font-weight: 400;
 
 /* ===============//Offer//=============== */
 
+/* =================Offer================= */
+.offer-box {
+   display: flex;
+   padding: 0;
+
+   background-color: var(--background-color-offer);
+   color: var(--text-color-offer);
+}
+
+.offer-section {
+   padding: 84px 44px 84px 30px;
+}
+
+.offer-subtitle {
+    margin-bottom: 5px;  
+
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.offer-title {
+    margin-bottom: 26px;
+
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+}
+
+.offer-text-content {
+    margin-bottom: 17px;
+
+    font-size: 18px;
+    line-height: 1.56;
+}  
+
+.offer-btn {
+    min-width: 167px;
+    padding: 11px 27px 12px 42px;
+
+    display: inline-block;  
+
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+
+    background-color: var(--background-color-offer);
+    border: 1px solid var(--btn-color-border);
+    color: var(--text-color-offer);
+    border-radius: 5px;
+}
 
 /* Cases */
  
@@ -183,7 +235,7 @@ font-weight: 400;
 }
 
 .cases-box{
- 
+
   padding-top: 50px;
   padding-bottom: 47px;
 }
@@ -224,7 +276,6 @@ font-weight: 400;
     column-gap: 8px;
   
 }
-
 
 
 
