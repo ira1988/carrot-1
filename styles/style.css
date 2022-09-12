@@ -115,9 +115,9 @@ font-weight: 400;
   fill: var(--color-white);
    
 } 
+/* 
+<!-- Offer --> */
 
-/* ==================== section hero ==================== */
-/* =================Offer================= */
 .offer-box {
   display: flex;
   padding: 0;
@@ -173,58 +173,7 @@ font-weight: 400;
   border-radius: 5px;
 }
 
-/* ===============//Offer//=============== */
 
-/* =================Offer================= */
-.offer-box {
-   display: flex;
-   padding: 0;
-
-   background-color: var(--background-color-offer);
-   color: var(--text-color-offer);
-}
-
-.offer-section {
-   padding: 84px 44px 84px 30px;
-}
-
-.offer-subtitle {
-    margin-bottom: 5px;  
-
-    font-size: 20px;
-    line-height: 1.65;
-}
-
-.offer-title {
-    margin-bottom: 26px;
-
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26;
-}
-
-.offer-text-content {
-    margin-bottom: 17px;
-
-    font-size: 18px;
-    line-height: 1.56;
-}  
-
-.offer-btn {
-    min-width: 167px;
-    padding: 11px 27px 12px 42px;
-
-    display: inline-block;  
-
-    font-size: 18px;
-    line-height: 1.56;
-    text-align: center;
-
-    background-color: var(--background-color-offer);
-    border: 1px solid var(--btn-color-border);
-    color: var(--text-color-offer);
-    border-radius: 5px;
-}
 
 /* Cases */
  
@@ -276,8 +225,108 @@ font-weight: 400;
     column-gap: 8px;
   
 }
+/* 
+  <!-- Наша команда --> */
+
+ .section-team {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: var(--primary-color);
+}
+
+.team-subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.team-title {
+    margin-bottom: 34px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.team-slogan {
+    margin-bottom: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.team-member {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.28;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.social-list-wrapper {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.social-list-icon {
+    fill: #fff;
+}
+.youtube-icon {
+    width: 40px;
+    height: 35px;
+}
+.linkedin-icon {
+    width: 31px;
+    height: 35px;
+}
 
 
+
+.team-box {
+    position: relative;
+
+}
 
 /*---------------SECTION-CONTACT---------------------*/
 .contact {
