@@ -5,6 +5,11 @@
   --text-color-offer:#FFFFFF;
   --btn-color-text: #FFFFFF;
   --btn-color-border:#FFFFFF;
+    --color-logo: #28A745;
+  --white-color:#FFFFFF;
+  --text-color: #333333;
+  --primery-font:'Open Sans', sans-serif;
+
 }
 
 h1,
@@ -35,6 +40,85 @@ button {
   cursor: pointer;
   padding: 0px;
 }
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+         /* Header*/
+
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header {
+  font-family: var(--primery-font);
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1,2;
+  color: var(--color-logo);
+}
+
+.logo {
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1,2;
+  color: var(--text-color);
+  }
+
+.logo-head {
+  display: flex;
+  align-items: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-right: 557px;
+}
+
+
+.site-nav {
+  display: flex;
+  column-gap: 38px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  font-family: var(--primery-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1,5;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: var(--text-color);
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 /* ==================== section hero ==================== */
 
@@ -91,27 +175,7 @@ button {
 }
 
 /* ==================== section hero ==================== */
-
-
-.input {
-  padding: 0px;
-}
-
-body{
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-}
-
-.container{
-  margin-left: auto;
-  margin-right: auto;
-  width: 1360px;
-  padding-left: 10px;
-  padding-right:10px ;
-  outline: 2px solid red;
-}
-
-
+ 
 /* =================Offer================= */
 .offer-box {
    display: flex;
@@ -161,11 +225,28 @@ font-weight: 400;
     border: 1px solid var(--btn-color-border);
     color: var(--text-color-offer);
     border-radius: 5px;
+
+.input {
+  padding: 0px;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1360px;
+  padding-left: 10px;
+  padding-right:10px ;
+  outline: 2px solid red;
+}
+
+
 }
 /* ===============//Offer//=============== */
-
-
-
 
 
 /* Cases */
