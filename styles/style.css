@@ -49,6 +49,19 @@ button {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
          /* Header*/
 
 
@@ -114,12 +127,6 @@ button {
 
 
 
-
-
-
-
-
-
 /* ==================== section hero ==================== */
 
 .hero {
@@ -175,6 +182,69 @@ button {
 }
 
 /* ==================== section hero ==================== */
+
+/* ==================== section features ==================== */
+/* features */
+
+.features {
+  background: #F4F4F4;
+
+}
+
+.features-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-list {
+  display: flex;
+  gap: 71px;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.features-title {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333333;
+}
+
+.features-text {
+  margin-bottom: 19px;
+  font-size: 18px;
+  line-height: 1.56;
+  width: 362px;
+  text-align: center;
+  color: #333333;
+}
+
+.features-list-icons {
+  display: block;
+}
+
+.features-svg {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  width: 67px;
+  height: 67px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  background: #28A745;
+  border-radius: 50%;
+}
+
+.features-icons {
+  display: flex;
+}
+
+/* ==================== section features ==================== */
  
 /* =================Offer================= */
 .offer-box {
