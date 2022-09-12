@@ -5,51 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="page-header header">
+      <div class="container page-header-container">
+        <nav class="page-navigation">
+          <a class="logo logo-head link" href="./index.html" lang="en">
+            <svg aria-label="логотип" class="logo-img" width="39" height="30">
+              <use href="./images/sprite.svg#icon-logo">
+            </svg>
+            Finance<span class="logo-header">Ledger</span></a
+          >
+          <ul class="site-nav list">
+            <li class="menu-item"><a class="nav-link current link" href="./index.html">Home</a></li>
+            <li class="menu-item"><a class="nav-link link" href="#">About</a></li>
+            <li class="menu-item"><a class="nav-link link" href="#">Cases</a></li>
+            <li class="menu-item"><a class="nav-link link" href="#">Blog</a></li>
+            <li class="menu-item"><a class="nav-link link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-<main>
-    <section class="cases">
+    <main>
+      <section class="cases">
         <div class="container">
-        <p class="subtitle">This is what we do</p>
-        <h2 class="title">Business Cases</h2>
-        <p class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-        <ul class="cases-gallery">
-            <li><img src="./images/cases_1.jpg" alt="People mitting" width="320" height="214"></li>
-            <li><img src="./images/cases_2.jpg" alt="A person works with graphic tables" width="320" height="214"></li>
-            <li><img src="./images/cases_3.jpg" alt="People shake hands" width="320" height="214"></li>
-            <li><img src="./images/cases_4.jpg" alt="Six people put their hands one on top of the other" width="320" height="214"></li>
-            <li><img src="./images/cases_5.jpg" alt="A person works at a laptop" width="320" height="214"></li>
-            <li><img src="./images/cases_6.jpg" alt="The sky reflects in the windows of skyscrapers" width="320" height="214"></li>
-            <li><img src="./images/cases_7.jpg" alt="A group of people are sitting at a table in an office" width="320" height="214"></li>
-            <li><img src="./images/cases_8.jpg" alt="Three people are working in the office and smiling at each other" width="320" height="214"></li>
-        </ul>
+          <p class="subtitle">This is what we do</p>
+          <h2 class="title">Business Cases</h2>
+          <p class="text-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+          </p>
+          <ul class="cases-gallery">
+            <li>
+              <img src="./images/cases_1.jpg" alt="People mitting" width="320" height="214" />
+            </li>
+            <li>
+              <img
+                src="./images/cases_2.jpg"
+                alt="A person works with graphic tables"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img src="./images/cases_3.jpg" alt="People shake hands" width="320" height="214" />
+            </li>
+            <li>
+              <img
+                src="./images/cases_4.jpg"
+                alt="Six people put their hands one on top of the other"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_5.jpg"
+                alt="A person works at a laptop"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_6.jpg"
+                alt="The sky reflects in the windows of skyscrapers"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_7.jpg"
+                alt="A group of people are sitting at a table in an office"
+                width="320"
+                height="214"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/cases_8.jpg"
+                alt="Three people are working in the office and smiling at each other"
+                width="320"
+                height="214"
+              />
+            </li>
+          </ul>
         </div>
-    </section>
-  
- <section class="contact ">
-  <div class="contact-box container" >
-    <div class="contact-image">
-      <img src="./images/man-work.jpg" alt="man-work" width="680" height="460" />
-    </div>
-    <div class="contact-section">
-      <p class="title-section">Request Callback</p>
-      <form class="form-contact">
-       
-          <input type="text" name="name" placeholder="Enter your name" class="input input-2" />
-      
-          <input type="email" name="mail" placeholder="Enter email*" class="input" required />
-    
-        <button type="submit" class="contact-btn">Send</button>
-      </form>
-    </div>
-  </div>
-        
+      </section>
+
+      <section class="contact">
+        <div class="contact-box container">
+          <div class="contact-image">
+            <img src="./images/man-work.jpg" alt="man-work" width="680" height="460" />
+          </div>
+          <div class="contact-section">
+            <p class="title-section">Request Callback</p>
+            <form class="form-contact">
+              <input type="text" name="name" placeholder="Enter your name" class="input input-2" />
+
+              <input type="email" name="mail" placeholder="Enter email*" class="input" required />
+
+              <button type="submit" class="contact-btn">Send</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
