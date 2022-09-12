@@ -1,12 +1,10 @@
 :root {
   --color-hero-title: #E9E9E9;
   --color-white: #fff;
+  --background-color-offer: #28A745;
   --text-color-offer:#FFFFFF;
   --btn-color-text: #FFFFFF;
   --btn-color-border:#FFFFFF;
-  --text-color-offer: #FFFFFF;
-  --btn-color-text: #FFFFFF;
-
 }
 
 h1,
@@ -38,60 +36,37 @@ button {
   padding: 0px;
 }
 
-body{
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-}
-
-.container{
-  margin-left: auto;
-  margin-right: auto;
-  width: 1360px;
-  padding-left: 10px;
-  padding-right:10px ;
-  outline: 2px solid red;
-}
-
-
 /* ==================== section hero ==================== */
 
 .hero {
   background-color: rgba(0, 0, 0, 0.4);
   padding-top: 229px;
   padding-bottom: 284px;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/back-ground.jpg);
   background-size: cover;
   width: 1360px;
   margin: 0 auto;
 }
 
 .hero-box {
-   width: 493px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
-  font-weight: 300;
+ font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
   color: var(--color-hero-title);
   margin-bottom: 25px;
-  outline: 2px solid red;
-   
 }
-
 .hero-sub-title {
-   outline: 2px solid red;
-  min-width: 459px;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 22px;
   line-height: 1.68;
   color: var(--color-hero-title);
   margin-bottom: 29px;
-
-
 }
 
 .hero-btn {
@@ -108,85 +83,100 @@ font-weight: 400;
   padding: 10px 28px;
 }
 
- 
- .hero-btn-icon{
+.hero-btn-icon{
   width: 8px;
   height: 12px;
   fill: var(--color-white);
-   
-} 
-/* 
-<!-- Offer --> */
 
+}
+
+/* ==================== section hero ==================== */
+
+
+.input {
+  padding: 0px;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1360px;
+  padding-left: 10px;
+  padding-right:10px ;
+  outline: 2px solid red;
+}
+
+
+/* =================Offer================= */
 .offer-box {
-  display: flex;
-  padding: 0;
+   display: flex;
+   padding: 0;
 
-  background-color: var(--background-color-offer);
-  color: var(--text-color-offer);
+   background-color: var(--background-color-offer);
+   color: var(--text-color-offer);
 }
 
 .offer-section {
-  padding: 84px 44px 84px 30px;
-}
+   padding: 84px 44px 84px 30px;
+   }
 
 .offer-subtitle {
-  margin-bottom: 5px;
+    margin-bottom: 5px;  
 
-  font-size: 20px;
-  line-height: 1.65;
+    font-size: 20px;
+    line-height: 1.65;
 }
 
 .offer-title {
-  margin-bottom: 26px;
+    margin-bottom: 26px;
 
-  font-weight: 300;
-  font-style: normal;
-  font-size: 38px;
-  line-height: 1.26;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
 }
 
 .offer-text-content {
-  margin-bottom: 17px;
+    margin-bottom: 17px;
 
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.56;
-}
+    font-size: 18px;
+    line-height: 1.56;
+}  
 
 .offer-btn {
-  width: 167px;
-  height: 50px;
-  padding: 11px 27px 12px 42px;
+    min-width: 167px;
+    padding: 11px 27px 12px 42px;
 
-  display: inline-block;
+    display: inline-block;  
 
-  font-family: inherit;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.56;
-  text-align: center;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
 
-  background-color: var(--background-color-offer);
-  border: 1px solid var(--btn-color-border);
-  color: var(--text-color-offer);
-  border-radius: 5px;
+    background-color: var(--background-color-offer);
+    border: 1px solid var(--btn-color-border);
+    color: var(--text-color-offer);
+    border-radius: 5px;
 }
+/* ===============//Offer//=============== */
+
+
 
 
 
 /* Cases */
- 
+
 .cases{
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #FFFFFF;
-}
-
-.cases-box{
-
   padding-top: 50px;
   padding-bottom: 47px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #FFFFFF;
 }
 .cases .subtitle{
     margin-bottom: 15px;
@@ -223,12 +213,10 @@ font-weight: 400;
     flex-wrap: wrap;
     row-gap: 7px;
     column-gap: 8px;
-  
-}
-/* 
-  <!-- Наша команда --> */
 
- .section-team {
+}
+
+.section-team {
     padding-top: 50px;
     padding-bottom: 60px;
     background-color: var(--primary-color);
@@ -325,8 +313,8 @@ font-weight: 400;
 
 .team-box {
     position: relative;
-
 }
+
 
 /*---------------SECTION-CONTACT---------------------*/
 .contact {
@@ -366,7 +354,7 @@ font-weight: 400;
     color: #212121;
     outline: none;
   padding-left: 10px;
-    
+
 }
 .input-2 {
   margin-bottom: 36px;
@@ -384,7 +372,7 @@ font-weight: 400;
 .contact-btn {
     font-size: 18px;
     line-height: 1.38;
-    
+
     color: #FFFFFF;
 background-color: #28A745;
 
@@ -405,4 +393,3 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #169A3B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
