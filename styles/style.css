@@ -55,7 +55,7 @@ button {
 }
 input {
   padding: 0px;
-
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -66,6 +66,7 @@ body {
   margin-right: auto;
   width: 1360px;
   padding-left: 10px;
+  outline: 2px solid red;
 }
 
   /* Header*/
@@ -338,7 +339,7 @@ body {
  }
 .cases .subtitle{
     margin-bottom: 15px;
-
+}
 .cases .subtitle {
   margin-bottom: 15px;
 
@@ -496,7 +497,7 @@ body {
 }
 .contact-section {
   background-color: #F4F4F4;
-
+}
 .contact-section
 {
   width: 680px;
