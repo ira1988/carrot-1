@@ -48,8 +48,7 @@ button {
 .link {
   text-decoration: none;
 }
-
-         /* Header*/
+  /* Header*/
 
 
 .page-header-container {
@@ -225,7 +224,7 @@ button {
     border: 1px solid var(--btn-color-border);
     color: var(--text-color-offer);
     border-radius: 5px;
-
+}
 .input {
   padding: 0px;
 }
