@@ -73,6 +73,11 @@ body {
 
 /* Header*/
 
+.page-header {
+  position: absolute;
+  width: 100%;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -90,7 +95,7 @@ body {
   font-weight: 400;
   font-size: 35px;
   line-height: 1, 2;
-  color: var(--color-logo);
+  color: var(--white-color);
 }
 
 .logo {
@@ -99,7 +104,7 @@ body {
   font-weight: 400;
   font-size: 35px;
   line-height: 1, 2;
-  color: var(--text-color);
+  color: var(--color-logo);
 }
 
 .logo-head {
@@ -109,7 +114,6 @@ body {
   padding-bottom: 11px;
   margin-right: 557px;
 }
-
 
 .site-nav {
   display: flex;
@@ -125,11 +129,17 @@ body {
   line-height: 1, 5;
   padding-top: 21px;
   padding-bottom: 21px;
-  color: var(--text-color);
+  color: var(--white-color);
 }
 
 .logo-img {
   margin-right: 10px;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.current {
+  color:var(--color-logo);
 }
 
 
